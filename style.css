@@ -497,6 +497,7 @@ font-weight: 750;
 
 }
 .our_services_icons{
+    color: black;
     margin-bottom: 0.2rem;
     padding: 0.5rem;
     gap:1rem;
@@ -524,6 +525,9 @@ font-weight: 750;
 .part1Content{
     /* border: 2px solid black; */
      max-width: 15rem;
+}
+.part1Content h4{
+    color: black;
 }
 .part1Content img{
     border-radius: 5%;
