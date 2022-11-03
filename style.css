@@ -98,7 +98,7 @@ color: var(--colour_grey);
 
 /*===========================================================================aircommerce header starts here ===================================================*/
 .second_header{
-   padding: 1%;
+   padding: 1% 0;
 }
 
 .title{
@@ -126,8 +126,8 @@ color: var(--colour_grey);
 .navBar ul{
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
-    padding: 1.4rem 6rem;
+    justify-content: space-between;
+    padding: 1.4rem 0;
     
     }
     .navBar ul li a{
@@ -148,7 +148,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: 1% 4%;
+    margin: 1% 0;
     /* padding: 0 10% 0 20% ; */
     
 }
