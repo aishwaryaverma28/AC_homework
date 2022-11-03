@@ -205,7 +205,8 @@ main{
 .scroll_bar_box{
     margin: 1rem 0;
     border: 1px solid lightgrey;
-    min-width: 14.5%;
+    min-width: 15%;
+    max-width: 100%;
     border-radius: 0.5rem;
    padding: 0.5rem;
    justify-content: start;
@@ -218,8 +219,8 @@ main{
     border-radius: 0.5rem;
 }
 .scroll_bar_icon img{
-   width: 50px;
-   padding: 0.5rem;
+   width: 3rem;
+   /* padding: 0.5rem; */
 }
 
 .scroll_bar_title{
@@ -309,11 +310,10 @@ color: var(--colour_light_grey);
 
 /* ===========================================================================right part of body =============================================================== */
 .right_part{
-    /* width: 100%; */
-    gap: 0;
+    padding-left: 1rem;
 }
 .catalogue1{
-    width: 100%;
+    min-width: 100%;
 }
 .catalogue1 h1{
 color: black;
@@ -321,16 +321,19 @@ color: black;
 .catalogue1 p{
     color: black;
 }
+.arrival{
+    flex-direction: column;
+}
 .arrival img{
-    width:3rem;
-    height:3rem;
+    width:5rem;
+    /* height:3rem; */
 }
 .arri_cost{
   color: pink;
 }
 .arrival_item{
-    width: 16rem;
-    height: 5rem;
+    width: 17rem;
+    padding: 1rem;
     gap: 1rem;
     border: 1px solid grey;
     border-radius: 0.5rem;
@@ -673,5 +676,10 @@ footer h3{
     .shampoo_details img{
         width: 100%;
     }
-    
+    .right_part{
+        padding: 0, 1.5rem;
+    }
+    .deal_of_day{
+        display: none;
+    }
 }
