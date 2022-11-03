@@ -83,9 +83,9 @@ hr{
     color: var(--colour_grey);
     font-size: 1em;
 }
-.dropDown_box{
-    /* margin-right: 5%; */
-}
+/* .dropDown_box{
+    margin-right: 5%;
+} */
 .dropDown_box select{
 border: none;
 font-size: medium;
@@ -329,7 +329,7 @@ color: black;
   color: pink;
 }
 .arrival_item{
-    width: 13.2rem;
+    width: 16rem;
     height: 5rem;
     gap: 1rem;
     border: 1px solid grey;
@@ -408,10 +408,10 @@ button{
     background-color: var(--colour_light_grey);
   }
 
-  /* new product catalogue */
-  .catalogue2{
-    /* gap: 0.7rem; */
-  }
+  /* ===============================================================new product catalogue ===========================================================*/
+  /* .catalogue2{
+    gap: 0.7rem;
+  } */
   .catalogue2_item{
     padding: 0.5rem;
     flex-direction: column;
@@ -453,7 +453,7 @@ text-decoration: line-through;
 
 
 
-/* testimonial part */
+/*=================================================================== testimonial part =============================================================*/
 .fcontainer{
     margin-bottom: 2rem;
     gap: 1rem;
@@ -513,7 +513,9 @@ font-weight: 750;
 .our_services_icons .fa{
     color: var(--colour_pink);
     font-size: large;
-
+}
+.our_services h3{
+    color: black;
 }
 .our_services_icons{
     color: black;
@@ -531,7 +533,7 @@ font-weight: 750;
 
 
 
-/* last part */
+/* ========================================================================================last part=============================================================== */
 .part1Container{
     max-width: 100%;
     display: flex;
@@ -560,7 +562,7 @@ font-weight: 750;
 }
 
 
-/* footer */
+/*=================================================================================== footer========================================================================== */
 footer{
     max-width: 100%;
     /* padding: 2rem 10rem; */
@@ -596,7 +598,7 @@ footer h3{
 
 
 
-/* media query for tablet */
+/*============================================================================ media query for tablet ===============================================================*/
 
 @media screen and (max-width: 821px) {
     .social_icons{
@@ -636,7 +638,7 @@ footer h3{
 
 
 
-/* media query for phone */
+/* ===================================================================media query for phone =======================================================================*/
 
 @media screen and (max-width: 600px) {
     .dropDown_box{
@@ -669,7 +671,7 @@ footer h3{
         padding: 1rem;
     }
     .shampoo_details img{
-        min-width: 50%;
+        width: 100%;
     }
     
 }
