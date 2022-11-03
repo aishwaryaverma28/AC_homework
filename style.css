@@ -17,7 +17,7 @@
 
 
 
-/* css classes */
+/* =================================================================================css classes========================================================================== */
 .container{
     padding: 0 3rem;
     max-width: 1440px;
@@ -31,6 +31,9 @@
 .borderBottom{
     /* min-width: 100%; */
     border-bottom: 1px solid grey;
+}
+.borderBot{
+    border-bottom: 1px solid lightgrey;
 }
 .jusContSE{
     justify-content: space-evenly;
@@ -57,7 +60,7 @@ hr{
     color: lightgrey; 
     margin-bottom: 1.3rem;
 }
-/* top most part */
+/* =============================================================================top most part ================================================================*/
 
 .part1{
     border-bottom: 1px solid var(--colour_grey);
@@ -68,9 +71,8 @@ hr{
     /* border: 2px solid black; */
     justify-content: var(--justifyContent_spaceBetween);
 }
-.social_icons{
-    /* margin-left: 5%; */
-}
+/* .social_icons{
+    margin-left: 5%;} */
 
 .social_icons .fa{
     /* color: var(--colour_grey); */
@@ -94,7 +96,7 @@ color: var(--colour_grey);
 }
 
 
-/* aircommerce header starts here */
+/*===========================================================================aircommerce header starts here ===================================================*/
 .second_header{
    padding: 1%;
 }
@@ -120,7 +122,7 @@ color: var(--colour_grey);
     color: var(--colour_grey);
 }
 
-/* navigation bar */
+/*============================================================ navigation bar============================================================= */
 .navBar ul{
     display: flex;
     justify-content: center;
@@ -140,7 +142,7 @@ main{
     margin: 0 auto;
 }
     
-    /* banner */
+    /* ===============================================================banner==================================================================== */
 .banner{
     background-image: url(images/banner-1.jpg);
     background-repeat: no-repeat;
@@ -188,11 +190,17 @@ main{
 }
 
 
-/* body starts */
+/* ====================================================================================body starts===================================================== */
 .body_scroll_bar{
     max-width: 100%;
     /* margin: 2% 5.5%; */
  /* justify-content: space-evenly; */
+}
+.side_no{
+    font-size:0.7em; color: grey;
+}
+.scroll_show{
+    color: pink;
 }
 .scroll_bar_box{
     margin: 1rem 0;
@@ -229,13 +237,16 @@ main{
     height: 100%;
 }
 
-/* left side bar */
+/* ==============================================================left side bar===================================================================== */
 #left_side_head{
      margin: 2% 0%;
     font-size: 1rem;
     font-weight: 800;
     color: black;
     margin-left: 7%;
+}
+.leftSideBarItem img{
+    height: 3rem; width: 3rem;
 }
 .left_side_navigation_bar{
 margin-bottom: 2rem;
@@ -279,6 +290,9 @@ aside{
     font-size: 1rem;
     color: gold;
 }
+.best_tit{
+color:black
+}
 .best_text .strike_amount{
 text-decoration: line-through;
 color: var(--colour_light_grey);
@@ -293,7 +307,7 @@ color: var(--colour_light_grey);
 }
 
 
-/* right part of body  */
+/* ===========================================================================right part of body =============================================================== */
 .right_part{
     /* width: 100%; */
     gap: 0;
@@ -310,6 +324,9 @@ color: black;
 .arrival img{
     width:3rem;
     height:3rem;
+}
+.arri_cost{
+  color: pink;
 }
 .arrival_item{
     width: 13.2rem;
@@ -329,7 +346,7 @@ color: black;
 }
 
 
-/* Deal of the day */
+/* =================================================Deal of the day===================================================================== */
 
 .deal_of_day h3{
 font-size: 1.5rem;
@@ -348,7 +365,9 @@ color: black;
     width: 100%;
     margin-bottom: 3rem;
 }
-
+.shampoo_description{
+    color: lightgrey; line-height: 1rem;
+}
 .shampoo_text .fa{
     color: gold;
 }
@@ -544,11 +563,12 @@ font-weight: 750;
 /* footer */
 footer{
     max-width: 100%;
-    padding: 2rem 10rem;
+    /* padding: 2rem 10rem; */
     background-color: black;
     color: grey;
 }
 .foot{
+    padding: 1.5rem 0;
     border-bottom: 1px solid grey;
     margin-bottom: 2rem;
 }
@@ -564,13 +584,10 @@ footer h3{
     line-height: 2rem;
 }
 .foot2{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-bottom: 2rem;
-    line-height: 1.5rem;
+    padding: 1.5rem 0;
     border-bottom: 1px solid grey;
     margin-bottom: 2rem;
+    line-height: 2rem;
 }
 .foot3{
     text-align: center;
@@ -646,6 +663,13 @@ footer h3{
     }
     .banner .banner_content #trend{
        font-size: 1rem;
+    }
+    .shampoo_details{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .shampoo_details img{
+        min-width: 50%;
     }
     
 }
