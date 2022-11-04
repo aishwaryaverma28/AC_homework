@@ -110,7 +110,7 @@ color: var(--colour_grey);
     padding: 10px;
 }
 .search_bar{
-    border: 2px solid grey;
+    border: 2px solid lightgrey;
     width: 40%;
     border-radius: 5px;
     padding: 0 1%;
@@ -128,8 +128,12 @@ color: var(--colour_grey);
     justify-content: center;
     justify-content: space-between;
     padding: 1.4rem 0;
-    
-    }
+     }
+     .navBar ul li a:hover{
+        padding: 1rem;
+        border-radius: 5px;
+        background-color: #ffadad;
+     }
     .navBar ul li a{
     text-decoration: none;
     font-weight: bold;
@@ -184,8 +188,8 @@ main{
 }
 .banner button:hover{
     cursor: grabbing;
-    transform: scale(1.3);
-    z-index: 2;
+    transform: scale(1);
+    z-index: 1;
     box-shadow: 6px 6px 40px 10px #ffafcc;
 }
 
@@ -212,6 +216,13 @@ main{
    justify-content: start;
    gap: 1rem;
    /* align-items: stretch; */
+}
+.scroll_bar_box:hover{
+    cursor: grabbing;
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 6px 6px 10px 10px #ffafcc;
+    border-radius: 5px;
 }
 .scroll_bar_icon{
     border:2px solid rgb(182, 164, 164) ;
@@ -270,6 +281,13 @@ aside{
     top: 0;
     width:20% ;
 }
+.leftSideBarItem:hover{
+    cursor: grabbing;
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 6px 6px 10px 10px #ffafcc;
+    border-radius: 5px;
+}
 .leftSideBarItem{
     justify-content: start;
     padding: 0.5rem;
@@ -278,6 +296,17 @@ aside{
 .leftSideBarItem img{
     width: 2rem;
     height: 2rem;
+    
+}
+.leftSideBarItem2{
+    justify-content: start;
+    gap: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+.leftSideBarItem2 img{
+    width: 5.5rem;
+    height: 5.5rem;
     
 }
 .item1{
@@ -306,7 +335,13 @@ color: var(--colour_light_grey);
     /* width: 100%; */
     justify-content: start;
 }
-
+.left_best_item:hover{
+    cursor: grabbing;
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 6px 6px 10px 10px #ffafcc;
+    border-radius: 5px;
+}
 
 /* ===========================================================================right part of body =============================================================== */
 .right_part{
@@ -335,14 +370,14 @@ color: black;
     width: 17rem;
     padding: 1rem;
     gap: 1rem;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     border-radius: 0.5rem;
 }
 .arrival_item:hover{
     cursor: grabbing;
-    transform: scale(1.3);
-    z-index: 2;
-    box-shadow: 6px 6px 40px 10px #ffafcc;
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 6px 6px 10px 10px #ffafcc;
 }
 .arrival_item span{
     text-decoration: line-through;
@@ -394,7 +429,7 @@ button{
   
   .progress_bar span {
     display: block;
-    width: 40%;
+    width: 50%;
     background-color: var(--colour_pink);
     height: 0.5rem;
     border-radius: 5rem;
@@ -428,9 +463,9 @@ button{
   }
   .catalogue2_item:hover{
     cursor: grabbing;
-    transform: scale(1.3);
-    z-index: 2;
-    box-shadow: 6px 6px 40px 10px #ffafcc;
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 6px 6px 10px 10px #ffafcc;
   }
   .new_product{
     color: black;
@@ -612,14 +647,14 @@ footer h3{
     }
     .hidden_tab{
         display: flex;
-        width: 50%;
+        width: 90%;
         position: fixed;
         padding: 0.5rem;
         background-color: var(--colour_pink);
         justify-content: space-evenly;
         border: 1px solid grey;
         bottom: 0;
-        left: 25%;
+        left: 5%;
     }
     .navBar{
         display: none;
@@ -635,7 +670,16 @@ footer h3{
     .left_side_bar{
         display: none;
     }
-    
+    .sec3{
+        margin: 0 auto;
+    }
+    .catalogue2{
+        justify-content: space-evenly;
+    }
+    .testimonial{
+        margin: 0 auto;
+    }
+
 }
 
 
@@ -679,7 +723,20 @@ footer h3{
     .right_part{
         padding: 0, 1.5rem;
     }
+    .summerCollection{
+        min-width: 100%;
+    }
     .deal_of_day{
-        display: none;
+        /* overflow: hidden; */
+        display: none; 
+    }
+    .arrival{
+        margin: 0 auto;
+    }
+    .body_scroll_bar{
+        justify-content: space-evenly;
+    }
+    .our_services{
+        margin: 0 auto;
     }
 }
